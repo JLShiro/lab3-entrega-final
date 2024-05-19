@@ -9,9 +9,9 @@ function Footer() {
                 <div className="footer-left">
                     <span className="footer-title">Sobre Nosotros</span>
                     <p><Link to="/aboutus">Nuestra Empresa</Link></p>
-                    <p><Link to="/">Preguntas Frecuentes</Link></p>
-                    <p><Link to="/">Términos y Condiciones</Link></p>
-                    <p><Link to="/">Políticas de Privacidad</Link></p>
+                    <p><Link to="#">Preguntas Frecuentes</Link></p>
+                    <p><Link to="#">Términos y Condiciones</Link></p>
+                    <p><Link to="#">Políticas de Privacidad</Link></p>
                 </div>
                 <div className="footer-center">
                     <span className="footer-title">Servicios</span>

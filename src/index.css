@@ -98,6 +98,7 @@ nav ul li a:hover{
   background-color: #ffd414;
   padding: 10px;
   border-radius: 20px;
+  font-weight: 700;
 }
 .hero-button:hover {
   font-family: 'Poppins';
@@ -106,6 +107,7 @@ nav ul li a:hover{
   padding: 10px;
   border-radius: 20px;
   border-color: #ffd414;
+  cursor: pointer;
 }
 .card {
   border: #0a0a0a;
@@ -215,6 +217,7 @@ nav ul li a:hover{
   flex-direction: column;
   align-items: center;
   width: 250px;
+  margin: 10px;
 }
 .catalog-card:hover {
   transform: translate3D(0,-1px,0) scale(1.03);
@@ -286,12 +289,14 @@ nav ul li a:hover{
 }
 .pricing-button {
   font-family: 'Poppins';
+  font-weight: 700;
   background-color: #ffd414;
   padding: 10px;
   border-radius: 20px;
   position: absolute;
   bottom: 50px;
   left: 38%;
+  cursor: pointer;
 }
 .pricing-button:hover {
   font-family: 'Poppins';
@@ -306,7 +311,7 @@ nav ul li a:hover{
 }
 .pricing-header {
   display: block;
-  margin-top: 65px;
+  margin-top: 70px;
   font-size: 24px;
   font-weight: 700;
 }
@@ -316,6 +321,91 @@ nav ul li a:hover{
 }
 .no-margin-top {
   margin-top: 0px;
+}
+.selected {
+  border: rgb(20, 37, 68);
+  border-style: solid;
+  border-width: 5px;
+}
+.survey {
+  color: white;
+  text-align: center;
+  background-color: rgba(13, 17, 26);
+  padding-bottom: 25px;
+}
+.survey-question {
+  font-size: 36px;
+}
+.answers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
+}
+.answer-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 25px;
+}
+input[type=radio] {
+  display: none;
+}
+.answers form label {
+  width: 400px;
+  font-size: 30px;
+  border: 2px solid rgb(11, 13, 16);
+  border-radius: 25px;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.answers form label::before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+input[type=radio]:checked + label {
+  background-color: rgb(110, 95, 24);
+}
+input[type=radio]:checked + label::before {
+  height: 16px;
+  width: 16px;
+  border: 10px solid white;
+  background-color: rgb(110, 95, 24);
+}
+.survey-button {
+  font-family: 'Poppins';
+  background-color: #ffd414;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.survey-button:hover {
+  background-color: transparent;
+  color: #ffd414;
+  border-color: #ffd414;
+  cursor: pointer;
+}
+.survey-picture {
+  height: 360px;
+  width: 540px;
+}
+.back {
+  color: white;
+  background-color: rgb(33, 70, 138);
+}
+.back:hover {
+  background-color: transparent;
+  color: white;
+  border-color: rgb(33, 70, 138);
+  cursor: pointer;
 }
 footer {
   background-color: #0a0a0a;
