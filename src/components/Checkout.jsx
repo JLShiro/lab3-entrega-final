@@ -19,7 +19,18 @@ function Checkout() {
                         <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad" /><input type="text" name="provincia" id="provincia" placeholder="Provincia" />
                     </div>
                     <div className="checkout-name">
-                        <input type="text" name="codpostal" id="codpostal" placeholder="Código Postal"/> <input type="tel" name="telefono" id="telefono" placeholder="Teléfono (opcional)" />
+                        <input type="text" placeholder="Fecha de Entrega" onFocus={
+                                                                                (e)=> {
+                                                                                    e.currentTarget.type = "date";
+                                                                                    e.currentTarget.focus();
+                                                                                }
+                                                                            }
+                                                                        onBlur={
+                                                                                (e)=> {
+                                                                                  e.currentTarget.type = "text";
+                                                                                  e.currentTarget.blur();
+                                                                                }
+                                                                            }/> <input type="tel" name="telefono" id="telefono" placeholder="Teléfono (opcional)" />
                     </div>
                     <span className="cart-sub"><strong>3. Opciones de Envío</strong></span> <br />
                     <div className="subtotal shipping">
