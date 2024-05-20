@@ -14,8 +14,8 @@ function Header() {
                     <li><Link to="/news">Eventos</Link></li>
                     <li><Link to="/signup">Regístrate</Link></li>
                     <li><Link to="/login" className="header-login-text">Iniciar Sesión</Link></li>
-                    <li><Link to="/checkout" className="shopping-cart"><i class="fa fa-shopping-cart fa-lg"></i></Link></li>
-                    <li><Link to="/profile" className="shopping-cart"><i class="fa fa-user fa-lg"></i></Link></li>
+                    <li><Link to="/checkout" className="shopping-cart"><i className="fa fa-shopping-cart fa-lg"></i></Link></li>
+                    <li><Link to="/profile" className="shopping-cart"><i className="fa fa-user fa-lg"></i></Link></li>
                 </ul>
             </nav>
         </header>

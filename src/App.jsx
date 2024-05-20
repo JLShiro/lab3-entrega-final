@@ -5,6 +5,10 @@ import Catalog from './components/Catalog';
 import Pricing from './components/Pricing'
 import Options from './components/Options'
 import Survey from './components/Survey'
+import News from './components/News'
+import AboutUs from './components/AboutUs'
+import SignUp from './components/SignUp'
+import Login from './components/Login'
 import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom'
 import './index.css'
@@ -19,7 +23,11 @@ function App() {
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/options" element={<Options />} />
-          <Route path="/survey" element={<Survey />}></Route>
+          <Route path="/survey" element={<Survey />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
       <Footer />

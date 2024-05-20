@@ -73,7 +73,6 @@ nav ul li a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-bottom: 25px;
 }
 .hero-text {
   text-align: left;
@@ -406,6 +405,139 @@ input[type=radio]:checked + label::before {
   color: white;
   border-color: rgb(33, 70, 138);
   cursor: pointer;
+}
+.news{
+  text-align: center;
+  color: white;
+  background-color: #0A0A0A;
+  padding-bottom: 25px;
+}
+.news-card {
+  color: #0A0A0A;
+  margin-top: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 25px;
+  text-align: left;
+}
+.news-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+.news-card p {
+  width: 70%;
+}
+.news-card img {
+  float: right;
+  width: 250px;
+  height: 250px;
+}
+.aboutus {
+  text-align: center;
+}
+.mision {
+  margin-top: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+}
+.mision-img {
+  float: right;
+  height: 250px;
+  width: 400px;
+  margin-right: 5%;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.mision-title, .vision-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+.mision-text {
+  width: 50%;
+}
+.vision {
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: right;
+  margin-bottom: 100px;
+}
+.vision-text {
+  margin-left: 50%;
+}
+.vision-img {
+  float: left;
+  height: 250px;
+  width: 400px;
+  margin-left: 5%;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.signup {
+  width: 40%;
+  height: 70%;
+  background-color: #FFD414;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 5%;
+  text-align: center;
+}
+.signup-title {
+  display: block;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 54px;
+}
+.signup-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.signup-fields input {
+  height: 40px;
+  width: 300px;
+  margin-top: 25px;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 24px;
+}
+.signup-final {
+  display: block;
+}
+.signup-fields input[type=checkbox] {
+  height: auto;
+  width: auto;
+}
+.signup-button {
+  color: #0a0a0a;
+  background-color: white;
+  margin-top: 25px;
+  height: 50px;
+  width: 300px;
+  font-family: 'Poppins';
+  font-size: 24px;
+  border-radius: 25px;
+}
+.signup-button:hover {
+  color: white;
+  background-color: #0a0a0a;
+}
+.signup a {
+  color: rgb(20, 37, 68);
+  font-weight: 700;
+}
+.login-subtitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+.login-forgot {
+  margin-top: 1000px;
 }
 footer {
   background-color: #0a0a0a;
