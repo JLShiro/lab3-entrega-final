@@ -9,6 +9,9 @@ import News from './components/News'
 import AboutUs from './components/AboutUs'
 import SignUp from './components/SignUp'
 import Login from './components/Login'
+import Profile from './components/Profile'
+import Cart from './components/Cart'
+import Checkout from './components/Checkout'
 import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom'
 import './index.css'
@@ -28,6 +31,9 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </div>
       <Footer />

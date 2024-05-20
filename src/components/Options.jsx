@@ -160,8 +160,9 @@ function Options() {
                 <Link to="/options">&raquo;</Link>
             </div>
             <div>
-                <p>Si se encuentra indeciso, tome nuestra encuesta especializada para autocompletar su selección de cerevezas.</p>
-                <Link to='/survey'><button className="hero-button">Tomar Encuesta</button></Link>
+              <br /><Link to='/cart'><button className="hero-button">Ir al carrito de compras</button></Link>
+              <p>Si se encuentra indeciso, tome nuestra encuesta especializada para autocompletar su selección de cerevezas.</p>
+              <Link to='/survey'><button className="hero-button">Tomar Encuesta</button></Link>
             </div>
         </div>
     );

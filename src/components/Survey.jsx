@@ -24,7 +24,7 @@ function Survey() {
             </div>
             <div className="answer-buttons">
                 <button className="survey-button back">Retroceder</button>
-                <Link to="/checkout">
+                <Link to="/cart">
                     <button className="survey-button">Siguiente</button>
                 </Link>
             </div>
